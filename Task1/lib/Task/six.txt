@@ -1,0 +1,4 @@
+The Value of X : 4 
+The Value of Y : 3
+The Value of Z : 3 
+The Value of W : 3
