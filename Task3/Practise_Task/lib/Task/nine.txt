@@ -1,0 +1,22 @@
+1. Bubble Sort
+
+--> Time Complexity:
+        Best Case: 𝑂(n) : Occurs when the array is already sorted.
+        Worst Case: 𝑂(n^2) : Occurs when the array is sorted in reverse order.
+        Average Case: 𝑂(n^2) : Average scenario where elements are in random order.
+
+-------------------- 
+2. Selection Sort
+
+--> Time Complexity:
+        Best Case: 𝑂(n^2) : No matter the order of elements, it always requires 𝑛−1 comparisons.
+        Worst Case: 𝑂(n^2) : Similar to the best case, as it always performs 𝑛(𝑛−1)/2 comparisons.
+        Average Case: 𝑂(n^2) : The number of comparisons remains constant regardless of the initial order of elements.
+
+-------------------- 
+3. Insertion  Sort
+
+--> Time Complexity:
+        Best Case: 𝑂(n) : Occurs when the array is already sorted.
+        Worst Case: 𝑂(n^2) : Occurs when the array is sorted in reverse order.
+        Average Case: 𝑂(n^2) : On average, requires about  n^2 / 4 comparisons and shifts.

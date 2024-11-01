@@ -1,0 +1,14 @@
+1. Linear Search
+
+--> Time Complexity:
+        Best Case: 𝑂(1) : The element is found at the first position.
+        Worst Case: 𝑂(n) : The element is at the last position or not present at all.
+        Average Case: 𝑂(n) : On average, it will check half of the elements in the list.
+
+-------------------- 
+2. Binary Search
+
+--> Time Complexity:
+        Best Case: 𝑂(1) : The element is found in the middle of the list on the first comparison.
+        Worst Case: 𝑂(log(n)) : The search space is halved with each comparison until the element is found or the search space is empty.
+        Average Case: 𝑂(log(n)) : The average number of comparisons is logarithmic in relation to the number of elements.
