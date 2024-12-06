@@ -1,3 +1,4 @@
+import 'package:facebook_task/login_screen.dart';
 import 'package:flutter/material.dart';
 
 import 'splach_screen.dart';
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: LoginScreen(),
     );
   }
 }
