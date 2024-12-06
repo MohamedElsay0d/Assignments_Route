@@ -1,5 +1,6 @@
 import 'package:facebook_task/widgets/create_post.dart';
 import 'package:facebook_task/widgets/create_story.dart';
+import 'package:facebook_task/widgets/listview_posts.dart';
 import 'package:flutter/material.dart';
 
 class HomeTabbar extends StatelessWidget {
@@ -11,9 +12,8 @@ class HomeTabbar extends StatelessWidget {
       child: Column(
         children: [
           CreatePost(),
-          CreateStory(),
-          
-        
+          ListViewStrories(),
+          ListviewPosts()
       ]),
     );
   }

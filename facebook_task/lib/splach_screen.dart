@@ -1,6 +1,5 @@
+import 'package:facebook_task/home_tabbar.dart';
 import 'package:flutter/material.dart';
-
-import 'home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -14,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const FacebookScreen()),);
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const HomeTabbar()),);
     });
   }
   @override
