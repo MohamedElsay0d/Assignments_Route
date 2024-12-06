@@ -1,3 +1,5 @@
+import 'package:facebook_task/home_page.dart';
+import 'package:facebook_task/home_screen.dart';
 import 'package:facebook_task/login_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: HomeScreen(),
     );
   }
 }
