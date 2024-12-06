@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'splach_screen.dart';
+import 'views/splach_screen.dart';
 
 void main() {
   runApp(const MainApp());

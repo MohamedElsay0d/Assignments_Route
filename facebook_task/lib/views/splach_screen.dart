@@ -1,4 +1,4 @@
-import 'package:facebook_task/login_screen.dart';
+import 'package:facebook_task/views/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
