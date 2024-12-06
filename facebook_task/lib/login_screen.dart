@@ -1,3 +1,5 @@
+import 'package:facebook_task/home_page.dart';
+import 'package:facebook_task/home_tabbar.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -48,7 +50,10 @@ class LoginScreen extends StatelessWidget {
                 width: double.infinity,
                 height: 45,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    // after checking email and password, navigate to home screen
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) =>const HomeScreen()),);
+                  },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color(0xFF1877F2),
                     shape: RoundedRectangleBorder(
